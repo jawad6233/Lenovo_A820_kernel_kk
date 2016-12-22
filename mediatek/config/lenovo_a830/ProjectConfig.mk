@@ -121,7 +121,6 @@ CUSTOM_KERNEL_IMGSENSOR=ov8825_mipi_raw mt9v113_yuv
 
 # key pad driver to report key event
 CUSTOM_KERNEL_KPD=kpd
-CUSTOM_KERNEL_LCM=nt35516_qhd_dsi_cmd_ipsboe otm9608a_qhd_cmd
 
 # leds driver including green/red/blue
 CUSTOM_KERNEL_LEDS=mt65xx
@@ -1470,10 +1469,10 @@ MTK_HDMI_SUPPORT=no
 BOOT_LOGO=qhd
 
 # To choose kernel LCM driver name
-CUSTOM_KERNEL_LCM=nt35516_qhd_dsi_cmd_ipsboe
+CUSTOM_KERNEL_LCM=nt35516_qhd_dsi_cmd_ipsboe otm9608a_qhd_cmd
 
 # To choose uboot LCM driver name
-CUSTOM_UBOOT_LCM=nt35516_qhd_dsi_cmd_ipsboe
+CUSTOM_UBOOT_LCM=nt35516_qhd_dsi_cmd_ipsboe otm9608a_qhd_cmd
 
 # To set LCM resolution height size
 LCM_HEIGHT=960
